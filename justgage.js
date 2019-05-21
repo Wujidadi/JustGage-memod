@@ -795,7 +795,6 @@ JustGage.prototype.refresh = function(val, min = null, max = null) {
 
   // set new min
   if (min !== null) {
-    console.log(min);
     obj.config.min = min;
 
     obj.txtMinimum = obj.config.min;
